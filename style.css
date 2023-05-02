@@ -1,0 +1,188 @@
+.navbar{
+    /* border: solid 1px green; */
+    padding-bottom: 30px;
+}
+#home{
+    text-decoration: none;
+    font-weight: bolder;
+    color: black;
+    margin-left: 30%;
+    padding-right: 40px;
+
+}
+#shop{
+    text-decoration: none;
+    color: black;
+    padding-right: 40px;
+}
+.firstdiv{
+    width: 100%;
+    /* border: solid 1px blue; */
+    display: flex;
+    height: 700px;
+    background-color: rgb(121, 5, 229);
+}
+.clothes{
+    width: 80%;
+    /* border: 2px solid yellow; */
+    margin-top: 10%;
+}
+.girl{
+    width: 80%;
+}
+#sentence{
+    font-size: 60px;
+    margin-left: 30%;
+    color: white;
+}
+#discover{
+    font-size: 20px;
+    background-color: palevioletred;
+    margin-left: 250%;
+    
+}
+.second3{
+    padding: 0px 0 30px 0;
+}
+#weekly{
+    text-align: center;
+    /* border: solid 1px olive; */
+}
+.secondiv{
+    width: 100%;
+    /* border: solid 1px red; */
+}
+#dress{
+    text-align: center;
+    font-size: 20px;
+}
+.thirddiv{
+    /* border: solid 1px red; */
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+#blue{
+    width: 140%;
+}
+#view{
+    padding: 0 20px 0 20px;
+    color: white;
+    background-color: rgb(220, 94, 115);
+    font-size: 15px;
+}
+.views{
+    /* border: solid 1px red; */
+    padding: 30px 0 40px 40%;
+}
+.divfour{
+    width: 50%;
+    height: 700px;
+    background-image: url(/images/sportsPerson.jpeg);
+    background-repeat: no-repeat;
+    background-size: 700px 800px;
+}
+.divfour1{
+    width: 100%;
+    display: flex;
+}
+#arrivals{
+    margin-left: 5%;
+    font-size: larger;
+}
+.newarrive{
+    margin-top: 80%;
+}
+#sports{
+    width: 100%;
+}
+.divfive{
+    width: 50%;
+}
+.divfive1{
+    width: 99%;
+    height: 300px;
+    background-image: url(/images/blackheels.jpeg);
+    background-repeat: no-repeat;
+    background-size: 700px 800px;
+    border: solid 4px yellow;
+}
+.divfive2{
+    background-image: url(/images/modelshoes.jpeg);
+    background-repeat: no-repeat;
+    background-size: 700px 800px;
+    height: 369px;   
+}
+#formal{
+    margin-left: 5%;
+    font-size: larger;
+}
+.office{
+    margin-top: 30%;
+}
+.divsix{
+    width: 100%;
+    /* border: solid 4px yellow; */
+    padding: 70px 0 30px 0;
+}
+#wel{
+    text-align: center;
+}
+.shop{
+    font-size: 40px;
+}
+.with{
+    font-size: 20px;
+    font-style: normal;
+}
+.divseven{
+    width: 100%;
+    /* border: solid 2px red; */
+}
+#last{
+    height: 400px;
+    width: 100%;
+}
+.diveight{
+    width: 100%;
+    display: flex;
+    /* border: solid 2px red; */
+    padding: 40px 0 30px 0;
+    justify-content: space-around;
+}
+.diveight3{
+    width: 20%;
+}
+.diveight1{
+    width: 20%;
+}
+.diveight2{
+    width: 20%;
+}
+.diveight4{
+    width: 20%;
+}
+.athlete{
+    font-size: 20%;
+    color: white;
+}
+#now{
+    background-color: pink;
+}
+@media (max-width: 700px) {
+    body{
+        background-color: red;
+    }
+    #clothes{
+        font-size: 5px;
+        margin-right: 30%;
+    }
+    .firstdiv{
+        width: 40%;
+    }
+    .thirddiv{
+        grid-template-columns: 1fr 2fr;
+    }
+}
+
+    
